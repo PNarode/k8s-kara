@@ -1,0 +1,12 @@
+apiVersion: app.kara.com/v1
+kind: MonitoringApp
+metadata:
+  labels:
+    app.kubernetes.io/name: monitoringapp
+    app.kubernetes.io/instance: monitoringapp-sample
+    app.kubernetes.io/part-of: k8s-kara
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: k8s-kara
+  name: monitoringapp-sample
+spec:
+  # TODO(user): Add fields here
